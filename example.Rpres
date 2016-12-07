@@ -1,0 +1,29 @@
+example
+========================================================
+author: Prasanth Kambhatla
+date: 12-7-2016
+autosize: true
+
+A First Plot
+========================================================
+This presentation uses knitr.
+
+```{r, echo=FALSE}
+plot(1:20, pch=1:20)
+```
+
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
